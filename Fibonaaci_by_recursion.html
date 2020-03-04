@@ -1,0 +1,27 @@
+<html>
+<head>
+	<script type="text/javascript">
+		var n,i;
+		var k;
+		
+		n=window.prompt("Enter value of N:",0);
+		function fibo(x)
+		{
+			if(x<=1)
+				return 1;
+			else
+				return fibo(x-1)+fibo(x-2);
+		}
+
+       for(i=0;i<=n;i++)
+       {
+
+       	k=fibo(i);
+		document.writeln(k);
+
+       }
+		
+		
+	</script>
+</head>
+</html>
