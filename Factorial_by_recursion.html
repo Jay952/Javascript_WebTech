@@ -1,0 +1,19 @@
+<html>
+<head>
+	<script type="text/javascript">
+		var n,f;
+		n=window.prompt("Enter value of n:",0);
+		n=parseInt(n);
+		f=fact(n);
+		document.writeln("factorial="+f);
+
+		function fact(a)
+		{
+			if(a<=1)
+				return 1;
+			else
+				return a*fact(a-1);
+		}
+	</script>
+</head>
+</html>

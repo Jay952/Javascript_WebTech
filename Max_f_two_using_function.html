@@ -1,0 +1,21 @@
+<html>
+<head>
+	<script type="text/javascript">
+		var a,b,result;
+		a=window.prompt("Enter value of a:",0);
+		b=window.prompt("Enter value of b:",0);
+		a=parseInt(a);
+		b=parseInt(b);
+		c=maximum(a,b);
+		document.writeln("Maximum is: "+c);
+
+		function maximum(m,n)
+		{
+			if(m>n)
+				return m;
+			else
+				return n;
+		}
+	</script>
+</head>
+</html>
